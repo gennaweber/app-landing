@@ -1,0 +1,220 @@
+/******Colours
+#FFE9DE
+#7F62C9
+#CE4B86
+#F97E94
+#6E9AF3
+#C2C4F8
+#5A6268
+#1f2224
+
+Fonts
+font-family: 'Raleway', sans-serif;
+font-family: 'Bellota', cursive;
+*****/
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #5A6268;
+}
+
+h1, h2, h3 {
+  font-family: 'Bellota', cursive;
+}
+
+/* a {
+  color: #F97E94;
+}
+
+a:hover {
+  color: white;
+} */
+
+/* Headings */
+.big-heading {
+  color: #1f2224;
+  line-height: 1.5;
+  font-family: 'Bellota', cursive;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 30px 0;
+}
+
+.section-heading {
+  color: #1f2224;
+}
+
+/********************* Sections *********************/
+.dark-color {
+  background-color: #CE4B86;
+  color: white;
+}
+
+/********************* Containers ********************/
+.container-fluid {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/********************* Nav Bar *********************/
+.navbar {
+  padding: .5rem 0 4.5rem 0;
+}
+
+.logo {
+  color: #F97E94;
+  font-size: 2rem;
+}
+
+.logo:hover {
+  color: #F97E94;
+}
+
+.nav-item {
+  margin: 0 18px;
+}
+
+.nav-link {
+  color: #F97E94;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+/********************* Title Section *********************/
+#title .container-fluid {
+  background-color: #FFE9DE;
+  padding: 3% 20% 0;
+  text-align: left;
+}
+
+.main-image {
+  left: 15%;
+  position: relative;
+  transform: rotate(5deg);
+  width: 70%;
+}
+
+.download-button {
+  margin: 0 10px 50px 0;
+}
+
+@media (max-width: 1028px) {
+  #title .row {
+    text-align: center;
+  }
+
+  .main-image {
+    transform: rotate(0deg);
+    left: auto;
+    right: auto;
+  }
+
+  .navbar {
+    padding: .5rem 0 1rem 0;
+  }
+}
+
+/********************* Features *********************/
+#features {
+  background-color: white;
+  bottom: 40px;
+  position: relative;
+}
+
+.feature-icon {
+  color: #F97E94;
+  margin: 50px 0 15px;
+}
+
+.feature-icon:hover {
+  color: #CE4B86;
+}
+
+.table-box {
+  padding: 0 3%;
+}
+
+/********************* Testimonial Section *********************/
+#testimonials .container-fluid {
+  padding-bottom: 0;
+}
+
+.testimonial-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.carousel-inner {
+  margin-bottom: 30px;
+}
+
+/********************* Press Section *********************/
+.press-logo {
+  margin: 20px;
+  width: 20%;
+}
+
+.carousel {
+  padding: 7% 15%;
+}
+
+/********************* Pricing Section *********************/
+.pricing-text {
+  margin-bottom: 10%;
+}
+
+.pricing-tiles {
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+}
+
+/********************* Call to Action Section *********************/
+#cta {
+  background-color: #FFE9DE;
+}
+
+#cta .big-heading {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  margin: 0 0 3% 0;
+}
+
+.download-button-2 {
+  background-color: #F97E94;
+  border-color: #F97E94;
+  margin: 5% 10px 0 0;
+}
+
+.download-button-3 {
+  /*outline button*/
+  border-color: #F97E94;
+  color: #F97E94;
+  margin: 5% 10px 0 0;
+}
+
+/********************* Footer Section *********************/
+#footer .container-fluid {
+  padding: 3% 15%;
+}
+
+.footer-icons {
+  color: white;
+  margin: 0 2%;
+}
+
+.footer-icons:hover {
+  color: #F97E94;
+  position: relative;
+  bottom: 1px;
+}
+
+.copyright {
+  margin-top: 3%
+}
